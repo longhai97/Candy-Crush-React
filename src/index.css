@@ -1,6 +1,9 @@
 .app {
   display: flex;
   padding: 30px;
+  justify-content: center;
+  background-color: #f5d9d6;
+  border-radius: 16px;
 }
 .game {
   width: 560px;
@@ -12,4 +15,10 @@
 .game img {
   width: 70px;
   height: 70px;
+}
+
+.score-board {
+  margin: 0 20px 0 20px;
+  font-size: 20px;
+  color: #8b4412;
 }
